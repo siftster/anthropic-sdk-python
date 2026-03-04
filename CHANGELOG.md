@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.85.0 (2026-03-04)
+
+Full Changelog: [v0.84.0...v0.85.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.84.0...v0.85.0)
+
+### Features
+
+* **tests:** update mock server ([7dc86a4](https://github.com/anthropics/anthropic-sdk-python/commit/7dc86a4ffc9e70533a58065496c78394c6a6e97a))
+
+
+### Bug Fixes
+
+* **tool runner:** propagate container_id for programmatic tool calling ([#1462](https://github.com/anthropics/anthropic-sdk-python/issues/1462)) ([3ae7ff6](https://github.com/anthropics/anthropic-sdk-python/commit/3ae7ff6ff7af8a881706ae8068b1040a23c96fbd))
+* **tools:** use filtered messages list in async compaction ([#1124](https://github.com/anthropics/anthropic-sdk-python/issues/1124)) ([710d666](https://github.com/anthropics/anthropic-sdk-python/commit/710d666f80b7667e3551c1a68d7c0ffaad115de1))
+
+
+### Chores
+
+* **ci:** bump uv version ([09656ac](https://github.com/anthropics/anthropic-sdk-python/commit/09656acef77fa459d30d811bd51aa780a567182b))
+
 ## 0.84.0 (2026-02-25)
 
 Full Changelog: [v0.83.0...v0.84.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.83.0...v0.84.0)
